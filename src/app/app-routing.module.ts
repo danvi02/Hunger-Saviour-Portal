@@ -11,6 +11,11 @@ const routes: Routes = [
   {
     path: 'restaurants',
     component: RestaurantListComponent
+  },
+  {
+    path: '',
+    redirectTo: "/restaurants",
+    pathMatch: "full"
   }
 ];
 

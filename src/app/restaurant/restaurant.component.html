@@ -4,10 +4,10 @@
   </div>
   <mat-card-content>
     <div class="d-flex flex-column">
-        <div class="fw-bold">Restaurant1</div>
-        <div class="d-flex flex-row fw-bold"><mat-icon style="color: green;">stars</mat-icon>4.2</div>
-        <div class="text-secondary text-truncate">Biryani, North Indian, Chinese, Thali, South Indian Meals</div>
-        <div class="text-secondary">Lingampalli</div>
+        <div class="fw-bold">{{restaurant?.restaurant_name}}</div>
+        <div class="d-flex flex-row fw-bold"><mat-icon style="color: green;">stars</mat-icon>{{restaurant?.rating}}</div>
+        <div class="text-secondary text-truncate">{{restaurant?.menuType}}</div>
+        <div class="text-secondary">{{restaurant?.location}}</div>
     </div>
   </mat-card-content>
 </mat-card>
