@@ -1,6 +1,6 @@
 @import '../../styles/variables.scss';
 .mat-toolbar {
-  background: #FFFFFF !important;
+  background: $secondary-color !important;
 }
 
 .spacer{
@@ -15,8 +15,6 @@
 
 .logoname{
   color: $primary-color;
-  font-weight: bolder;
-  font-size: large;
 }
 
 .nav-links{
@@ -28,6 +26,9 @@
   a{
     display: flex;
     text-decoration: none;
-    color: #5C5B5B;
+    color: $tertiary-color;
+    &.active-link{
+      color: $primary-color;
+    }
   }
 }

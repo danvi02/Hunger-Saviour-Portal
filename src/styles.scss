@@ -5,6 +5,8 @@ body { margin: 0; font-family: Georgia, 'Times New Roman', Times, serif; }
 @import './styles/variables.scss';
 @import './styles/app-styles.scss';
 @import 'bootstrap/scss/bootstrap';
+@import './styles/bootstrap-override.scss';
+@import './styles/material-override.scss';
 
 
 
