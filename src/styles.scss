@@ -1,5 +1,3 @@
-html, body { height: 100%; }
-body { margin: 0; font-family: Georgia, 'Times New Roman', Times, serif; }
 
 /* Importing Bootstrap SCSS file. */
 @import './styles/variables.scss';
@@ -7,6 +5,10 @@ body { margin: 0; font-family: Georgia, 'Times New Roman', Times, serif; }
 @import 'bootstrap/scss/bootstrap';
 @import './styles/bootstrap-override.scss';
 @import './styles/material-override.scss';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Georgia, 'Times New Roman', Times, serif; }
+
 
 
 
