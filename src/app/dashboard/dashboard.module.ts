@@ -18,8 +18,7 @@ import { RestaurantComponent } from './restaurant/restaurant.component';
   imports: [
     CommonModule,
     DashboardRoutingModule,
-    SharedModule,
-    MaterialModule
+    SharedModule
   ]
 })
 export class DashboardModule { }
