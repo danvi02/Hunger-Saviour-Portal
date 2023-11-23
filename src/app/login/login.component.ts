@@ -8,9 +8,8 @@ import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms'
 })
 export class LoginComponent implements OnInit{
 
-  email?:string;
-  password?:string;
   public loginForm!:FormGroup;
+  hide = true;
 
   constructor(){
 
@@ -18,8 +17,8 @@ export class LoginComponent implements OnInit{
 
   ngOnInit(){
     this.loginForm = new FormGroup({
-      email: new FormControl('', [Validators.required]),
-      password: new FormControl('', [Validators.required])
+      email: new FormControl('admin@hungersaviourportal.com', [Validators.required]),
+      password: new FormControl('Admin@123', [Validators.required])
     });
   }
 
