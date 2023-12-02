@@ -4,9 +4,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import {ReactiveFormsModule } from '@angular/forms';
-import { SharedModule } from './shared.module';
+import { AuthService } from './services/auth.service';
+
+
 
 @NgModule({
   declarations: [
