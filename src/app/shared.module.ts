@@ -1,8 +1,10 @@
-import { NgModule } from '@angular/core';
+
 import { MaterialModule } from './material.module';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { RouterModule } from '@angular/router';
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -11,7 +13,8 @@ import { RouterModule } from '@angular/router';
   ],
   imports: [
     MaterialModule,
-    RouterModule
+    RouterModule,
+    CommonModule
   ],
   exports: [
     HeaderComponent,
